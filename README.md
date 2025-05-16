@@ -1,7 +1,7 @@
 
 # FarmFresh - Connecting Kenya's Agricultural Ecosystem
 
-FarmFresh is an innovative AgriTech platform designed to revolutionize Kenya's agricultural ecosystem by connecting farmers, suppliers, and consumers in one seamless marketplace.
+FarmFresh is a startup innovative AgriTech platform designed to revolutionize Kenya's agricultural ecosystem by connecting farmers, suppliers, and consumers in one seamless marketplace.
 
 ## Features
 
