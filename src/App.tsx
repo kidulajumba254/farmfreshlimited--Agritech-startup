@@ -20,6 +20,9 @@ import Careers from "./pages/Careers";
 import Sustainability from "./pages/Sustainability";
 import PasswordReset from "./pages/PasswordReset";
 import BettyAssistant from "./components/assistant/BettyAssistant";
+import Blog from "./pages/Blog";
+import FAQ from "./pages/FAQ";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +47,9 @@ const App = () => (
             <Route path="/orders" element={<Orders />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/sustainability" element={<Sustainability />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/about" element={<About />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

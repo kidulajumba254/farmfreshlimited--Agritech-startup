@@ -13,6 +13,15 @@ const NotFound = () => {
     );
   }, [location.pathname]);
 
+  // Suggested pages based on common routes
+  const suggestedPages = [
+    { path: "/", label: "Home" },
+    { path: "/marketplace", label: "Marketplace" },
+    { path: "/blog", label: "Blog" },
+    { path: "/about", label: "About Us" },
+    { path: "/faq", label: "FAQ" }
+  ];
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="text-center max-w-md">
@@ -25,9 +34,16 @@ const NotFound = () => {
           <Button className="w-full bg-green-600 hover:bg-green-700" asChild>
             <Link to="/">Return to Home</Link>
           </Button>
-          <Button variant="outline" className="w-full" asChild>
-            <Link to="/marketplace">Browse Marketplace</Link>
-          </Button>
+          <div className="mt-6">
+            <h3 className="text-lg font-medium mb-2">You might be looking for:</h3>
+            <div className="grid grid-cols-2 gap-2">
+              {suggestedPages.map((page) => (
+                <Button key={page.path} variant="outline" className="w-full" asChild>
+                  <Link to={page.path}>{page.label}</Link>
+                </Button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

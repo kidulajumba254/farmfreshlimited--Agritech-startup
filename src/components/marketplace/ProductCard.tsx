@@ -91,7 +91,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </CardContent>
       <CardFooter className="p-4 pt-0 flex flex-col sm:flex-row items-center justify-between gap-2">
         <Button variant="outline" asChild className="w-full sm:w-auto">
-          <Link to={`/product/${product.id}`}>View Details</Link>
+          <Link to={`/marketplace/${product.id}`}>View Details</Link>
         </Button>
         <Button 
           className="bg-green-600 hover:bg-green-700 w-full sm:w-auto flex items-center justify-center gap-2"
