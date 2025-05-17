@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Marketplace from "./pages/Marketplace";
+import ProductDetails from "./pages/ProductDetails";
 import Insights from "./pages/Insights";
 import Messages from "./pages/Messages";
 import Dashboard from "./pages/Dashboard";
@@ -17,6 +18,7 @@ import Profile from "./pages/Profile";
 import Orders from "./pages/Orders";
 import Careers from "./pages/Careers";
 import Sustainability from "./pages/Sustainability";
+import PasswordReset from "./pages/PasswordReset";
 import BettyAssistant from "./components/assistant/BettyAssistant";
 
 const queryClient = new QueryClient();
@@ -32,7 +34,9 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/password-reset" element={<PasswordReset />} />
             <Route path="/marketplace" element={<Marketplace />} />
+            <Route path="/marketplace/:productId" element={<ProductDetails />} />
             <Route path="/insights" element={<Insights />} />
             <Route path="/messages" element={<Messages />} />
             <Route path="/dashboard" element={<Dashboard />} />
