@@ -15,6 +15,8 @@ import Messages from "./pages/Messages";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Orders from "./pages/Orders";
+import Careers from "./pages/Careers";
+import Sustainability from "./pages/Sustainability";
 import BettyAssistant from "./components/assistant/BettyAssistant";
 
 const queryClient = new QueryClient();
@@ -36,6 +38,8 @@ const App = () => (
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/orders" element={<Orders />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/sustainability" element={<Sustainability />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
