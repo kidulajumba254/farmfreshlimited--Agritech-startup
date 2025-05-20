@@ -23,6 +23,7 @@ import BettyAssistant from "./components/assistant/BettyAssistant";
 import Blog from "./pages/Blog";
 import FAQ from "./pages/FAQ";
 import About from "./pages/About";
+import Investors from "./pages/Investors";
 
 const queryClient = new QueryClient();
 
@@ -50,6 +51,7 @@ const App = () => (
             <Route path="/blog" element={<Blog />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/about" element={<About />} />
+            <Route path="/investors" element={<Investors />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

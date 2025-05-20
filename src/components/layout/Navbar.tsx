@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
@@ -12,6 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Search, Menu, MessageCircle } from "lucide-react";
+import NotificationCenter from "@/components/notifications/NotificationCenter";
 
 const Navbar: React.FC = () => {
   const { user, logout, isAuthenticated } = useAuth();
@@ -38,6 +40,9 @@ const Navbar: React.FC = () => {
             <Link to="/insights" className="text-gray-600 hover:text-green-700">
               Market Insights
             </Link>
+            <Link to="/investors" className="text-gray-600 hover:text-green-700">
+              Investors
+            </Link>
           </div>
         </div>
 
@@ -59,6 +64,8 @@ const Navbar: React.FC = () => {
                   3
                 </span>
               </Link>
+              
+              <NotificationCenter />
               
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -184,6 +191,13 @@ const Navbar: React.FC = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Market Insights
+            </Link>
+            <Link 
+              to="/investors" 
+              className="text-gray-600 hover:text-green-700 py-2 border-b border-gray-100"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Investors
             </Link>
             
             {!isAuthenticated && (
