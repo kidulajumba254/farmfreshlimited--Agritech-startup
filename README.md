@@ -40,10 +40,10 @@ FarmFresh is a startup innovative AgriTech platform designed to revolutionize Ke
 
 ```bash
 # Clone the repository
-git clone <your-repository-url>
+git clone <https://github.com/kidulajumba254/farmfreshlimited--Agritech-startup.git>
 
 # Navigate to the project directory
-cd farmfreshlimited-Agritech-Startup
+cd farmfreshlimited-Agritech-Startup-main
 
 # Install dependencies
 npm install
