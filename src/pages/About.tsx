@@ -116,10 +116,26 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "Jane Muthoni", role: "Founder & CEO", image: "/placeholder.svg" },
-              { name: "John Kamau", role: "Chief Operating Officer", image: "/placeholder.svg" },
-              { name: "Sarah Odhiambo", role: "Head of Farmer Relations", image: "/placeholder.svg" },
-              { name: "David Njoroge", role: "Chief Technology Officer", image: "/placeholder.svg" }
+              { 
+                name: "Jane Muthoni", 
+                role: "Founder & CEO", 
+                image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              },
+              { 
+                name: "John Kamau", 
+                role: "Chief Operating Officer", 
+                image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              },
+              { 
+                name: "Sarah Odhiambo", 
+                role: "Head of Farmer Relations", 
+                image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              },
+              { 
+                name: "David Njoroge", 
+                role: "Chief Technology Officer", 
+                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              }
             ].map((member, index) => (
               <div key={index} className="text-center">
                 <div className="aspect-square relative rounded-full overflow-hidden mb-4 max-w-[200px] mx-auto">
