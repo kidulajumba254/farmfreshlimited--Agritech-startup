@@ -38,7 +38,7 @@ FarmFresh is a startup innovative AgriTech platform designed to revolutionize Ke
 git clone <your-repository-url>
 
 # Navigate to the project directory
-cd farmfresh
+cd farmfreshlimited-Agritech-Startup
 
 # Install dependencies
 npm install
@@ -107,4 +107,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For inquiries, please contact: hello@farmfresh.co.ke
+For inquiries, please contact: kidulajesse@gmail.com
