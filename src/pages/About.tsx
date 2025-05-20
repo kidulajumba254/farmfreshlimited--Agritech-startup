@@ -119,22 +119,22 @@ const About = () => {
               { 
                 name: "Jane Muthoni", 
                 role: "Founder & CEO", 
-                image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
               },
               { 
                 name: "John Kamau", 
                 role: "Chief Operating Officer", 
-                image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                image: "https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
               },
               { 
                 name: "Sarah Odhiambo", 
                 role: "Head of Farmer Relations", 
-                image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
               },
               { 
                 name: "David Njoroge", 
                 role: "Chief Technology Officer", 
-                image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                image: "https://images.unsplash.com/photo-1539698103494-a76dd0436fbc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
